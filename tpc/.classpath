@@ -12,8 +12,8 @@
 	<classpathentry kind="lib" path="lib/activemq-protobuf-1.1-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="lib/activemq-util-6.0-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="lib/argo-2.10.jar"/>
-	<classpathentry kind="lib" path="lib/asm-4.0.jar"/>
-	<classpathentry kind="lib" path="lib/asm-commons-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/asm-7.2.jar"/>
+	<classpathentry kind="lib" path="lib/asm-commons-7.2.jar"/>
 	<classpathentry kind="lib" path="lib/avro-1.8.1.jar"/>
 	<classpathentry kind="lib" path="lib/avro-compiler-1.8.1.jar"/>
 	<classpathentry kind="lib" path="lib/bson4jackson-2.7.0.jar"/>
@@ -24,6 +24,9 @@
 	<classpathentry kind="lib" path="lib/commons-httpclient-3.1.jar"/>
 	<classpathentry kind="lib" path="lib/commons-lang-2.4.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/activej-codegen-4.0-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/activej-common-4.0-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/activej-serializer-4.0-beta1.jar"/>
 	<classpathentry kind="lib" path="lib/dsl-clc.jar"/>
 	<classpathentry kind="lib" path="lib/dsl-json-1.1.1.jar"/>
 	<classpathentry kind="lib" path="lib/exi-exificient-0.9.1.jar"/>
@@ -82,7 +85,6 @@
 	<classpathentry kind="lib" path="lib/scala-library_2.11.2.jar"/>
 	<classpathentry kind="lib" path="lib/scala-reflect_2.11.2.jar"/>
 	<classpathentry kind="lib" path="lib/scala-xml_2.11-1.0.2.jar"/>
-	<classpathentry kind="lib" path="lib/serializer-1.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.5.10.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-nop-1.5.10.jar"/>
 	<classpathentry kind="lib" path="lib/snakeyaml-1.18.jar"/>

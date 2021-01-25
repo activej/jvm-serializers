@@ -1,10 +1,11 @@
 package serializers;
 
+import serializers.activej.ActiveJSerializerBase;
+import serializers.activej.ActiveJSerializerSpeed;
 import serializers.avro.AvroGeneric;
 import serializers.avro.AvroSpecific;
 import serializers.capnproto.CapNProto;
 import serializers.colfer.Colfer;
-import serializers.datakernel.DataKernelSerializer;
 import serializers.flatbuffers.FlatBuffers;
 import serializers.jackson.*;
 import serializers.javaxjson.*;
@@ -127,6 +128,7 @@ public class BenchmarkRunner extends MediaItemBenchmark
         FlatBuffers.register(groups);
         CapNProto.register(groups);
         Colfer.register(groups);
-        DataKernelSerializer.register(groups);
+        ActiveJSerializerBase.register(groups);
+        ActiveJSerializerSpeed.register(groups);
     }
 }
